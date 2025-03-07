@@ -5,7 +5,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "bootstrap-icons/font/bootstrap-icons.css";
 //json server link
 const USER_URL = "http://localhost:3002/Users";
-//creting state
+//creating state
 const App = () => {
   const [tasks, setTasks] = useState([]);
   const [name, setName] = useState("");
